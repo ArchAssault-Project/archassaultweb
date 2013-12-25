@@ -164,7 +164,7 @@ ISO_LIST_URL = 'https://releng.archassault.org/isos/'
 # URL for SVN access for fetching commit messages (note absence of packages or
 # community bit on the end, repo.svn_root is appended)
 #
-# Commented out because there is no SVN for blackarchweb.
+# Commented out because there is no SVN for archassaultweb.
 # SVN_BASE_URL = 'svn://svn.archassault.org/'
 
 # Trackers used for ISO download magnet links
