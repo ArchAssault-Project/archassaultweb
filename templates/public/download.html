@@ -28,12 +28,12 @@
         {% if release.version %}<li><strong>Current Release:</strong> {{ release.version }}</li>{% endif %}
         {% if release.kernel_version %}<li><strong>Included Kernel:</strong> {{ release.kernel_version }}</li>{% endif %}
         {% if release.file_size %}<li><strong>ISO Size:</strong> {{ release.file_size|filesizeformat }}</li>{% endif %}
-        <li><a href="https://wiki.blackarchlinux.org/index.php/Installation_Guide">Installation Guide</a></li>
+        <li><a href="https://wiki.archassault.org/index.php/Installation_Guide">Installation Guide</a></li>
         <li><strong>Resources:</strong>
             <ul>
-                <li><a href="https://bugs.blackarchlinux.org/index.php?project=6"
+                <li><a href="https://bugs.archassault.org/index.php?project=6"
                     title="ArchAssault Bugtracker:Release Engineering">Bug Tracker</a></li>
-                <li><a href="https://mailman.blackarchlinux.org/mailman/listinfo/arch-releng"
+                <li><a href="https://mailman.archassault.org/mailman/listinfo/arch-releng"
                     title="ArchAssault Release Engineering mailing list">Mailing List</a></li>
             </ul>
         </li>
@@ -84,7 +84,7 @@
     <p>File integrity checksums for the latest releases can be found below:</p>
 
     <ul>
-        <li><a href="https://www.blackarchlinux.org/{{ release.iso_url }}.sig"
+        <li><a href="https://www.archassault.org/{{ release.iso_url }}.sig"
             title="PGP signature">PGP signature</a></li>
         {% if release.md5_sum %}<li><strong>MD5:</strong> {{ release.md5_sum }}</li>{% endif %}
         {% if release.sha1_sum %}<li><strong>SHA1:</strong> {{ release.sha1_sum }}</li>{% endif %}
@@ -106,8 +106,8 @@
     </div>
     {% endcache %}
 
-    <p>If you want to become an Official Blackblackarchlinux Mirror please follow the
-    instructions listed <a href="https://wiki.blackarchlinux.org/index.php/DeveloperWiki:NewMirrors">here</a>.</p>
+    <p>If you want to become an Official Blackarchassault Mirror please follow the
+    instructions listed <a href="https://wiki.archassault.org/index.php/DeveloperWiki:NewMirrors">here</a>.</p>
 
 </div>
 {% endblock %}

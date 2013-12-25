@@ -1,4 +1,4 @@
-### Django settings for blackarchlinux project.
+### Django settings for archassault project.
 
 ## Debug settings
 DEBUG = False
@@ -17,9 +17,9 @@ ADMINS = (
 #DATABASES = {
 #    'default': {
 #        'ENGINE'  : 'django.db.backends.postgresql_psycopg2',
-#        'NAME'    : 'blackarchlinux',
-#        'USER'    : 'blackarchlinux',
-#        'PASSWORD': 'blackarchlinux',
+#        'NAME'    : 'archassault',
+#        'USER'    : 'archassault',
+#        'PASSWORD': 'archassault',
 #        'HOST'    : '',
 #        'PORT'    : '',
 #    },
