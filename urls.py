@@ -26,7 +26,7 @@ urlpatterns += patterns('public.views',
     (r'^$', 'index', {}, 'index'),
     (r'^about/$', TemplateView.as_view(template_name='public/about.html'),
         {}, 'page-about'),
-# Commented out as not used for BlackArchweb
+# Commented out as not used for ArchAssaultweb
 #    (r'^art/$',   TemplateView.as_view(template_name='public/art.html'),
 #        {}, 'page-art'),
 #    (r'^svn/$',   TemplateView.as_view(template_name='public/svn.html'),
